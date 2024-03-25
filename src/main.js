@@ -44,7 +44,7 @@ const wagmiConfig = createConfig({
 })
 
 createWeb3Modal({
-    defaultChain: mainnet,
+    defaultChain: sepolia,
     wagmiConfig: wagmiConfig,
     projectId,
     enableAnalytics: true,
